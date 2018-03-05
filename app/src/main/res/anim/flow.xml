@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	<translate 
+		android:fromXDelta="0%p" 
+		android:toXDelta="-100%p"
+		android:duration="10000"
+		android:repeatCount="3"
+		/>
+	<alpha 
+		android:fromAlpha="0.8"
+		android:toAlpha="0.1"
+		android:duration="10000"
+		android:repeatCount="3"
+		/>
+</set>
+
+	<!--
+	<translate //움직임 조정
+		android:fromXDelta="0%p"  //x축 처음부터 시작하여
+		android:toXDelta="-100%p" //왼쪽(음수,-100)으로 x축 끝까지(화면의 가로길이만큼) 움직임
+		android:duration="10000"  //1초동안
+		android:repeatCount="-1"  //무한반복
+		/>
+
+	<alpha //색상 조정
+		android:fromAlpha="0.8"  //0.8의 밝기에서
+		android:toAlpha="0.1"    //0.5의 밝기로 밝아짐
+		android:duration="10000" //2초간
+		android:repeatCount="-1" //무한반복
+		/>
+	-->

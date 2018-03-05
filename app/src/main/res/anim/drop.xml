@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+	<translate
+		android:fromXDelta="70%p"
+		android:toXDelta="20%p"
+		android:fromYDelta="0" 
+		android:toYDelta="100%p"
+		android:duration="1000"
+		android:repeatCount="-1"
+		/>
+</set>
+
+
+	<!--
+	<translate //움직임 조정
+		android:fromXDelta="70%p"  // X축 전체의 20% 구간에서 출발
+		android:toXDelta="20%p"    // X축 전체의 20% 구간에서 도착
+		android:fromYDelta="0"     // Y축 전체의 0% 구간에서 출발
+		android:toYDelta="100%p"   // Y축 전체의 아래로 100% 구간에서 도착
+		android:duration="1000"    // 1초간
+		android:repeatCount="-1"   // 5번반복 // 무한반복 : -1
+		/>
+	-->
